@@ -10,7 +10,7 @@ module.exports = {
   maxFileSize: 10485760, // 10MB
   maxPostSize: 10485760, // 10MB
   acceptFileTypes: /.+/i,
-  imageTypes: /\.(gif|jpe?g|png|bmp|swf)$/i,
+  imageTypes: /\.(gif|jpe?g|png|bmp|swf|svg)$/i,
   imageVersions: {
     'thumbnails': {
       width: 80,
